@@ -1,0 +1,11 @@
+package quiz.API;
+
+public class Quiz28 {
+	public static void main(String[] args) {
+		String fullPath = "c:\\jdk1.5\\work\\PathSeparateTest.java";
+		
+		int index = fullPath.indexOf("Path");
+		
+		System.out.println(fullPath.substring(index));
+	}
+}

@@ -1,0 +1,32 @@
+package quiz.api;
+
+import java.util.Scanner;
+
+public class Quiz26 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int answer = (int) (Math.random()*10) + 1;
+		System.out.println("answer:" + answer);
+		
+		System.out.print("1과 10사이의 값을 입력하세요 : ");
+		int n = sc.nextInt();
+		
+		while(true) {
+			if(n<answer) {
+				System.out.println("더 큰수를 입력하세요.\n");
+				System.out.print("1과 10사이의 값을 입력하세요 : ");
+				n = sc.nextInt();
+			} 
+			if(n>answer) {
+				System.out.println("더 작은 수를 입력하세요.\n");
+				System.out.print("1과 10사이의 값을 입력하세요 : ");
+				n = sc.nextInt();
+			} 
+			if(n==answer){
+				System.out.print("맞췄습니다.[입력값:" + n + ", 랜덤값:" + answer + "]");
+				break;
+			}
+		}
+	}
+}

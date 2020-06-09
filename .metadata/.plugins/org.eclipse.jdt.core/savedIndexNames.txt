@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+C:\Delilah\java\workspace\.metadata\.plugins\org.eclipse.jdt.core
+1064917795.index
+3197628505.index
+940875578.index
+2872044937.index
+2619434673.index
+2792360601.index
+2703085184.index
+1326690220.index
+3514251791.index
